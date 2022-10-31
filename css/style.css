@@ -134,9 +134,26 @@ background-color:hsl(219, 29%, 14%);
 background-color: hsl(0, 0%, 100%);
 }
 
+/* tab */
+/* @media(min-width:577){
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+}
+.daniel{
+    
+    grid-column-start: 1;
+    grid-column-end:4;
+}
+
+}  */
 
 
-@media(min-width: 992px) {
+
+
+/* desktop */
+@media(min-width: 1200px) {
 
     .profile{
         transition: all 1s;
